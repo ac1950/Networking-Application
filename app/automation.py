@@ -131,7 +131,8 @@ if __name__ == "__main__":
 
         <h4> Dont Forget To Proof Read!</h4>  
 
-         <h4> Here Are The Notes You Have Written for {contactINFO['First Name']}: {contactINFO['Notes']} </h4>
+        <h4> Here Are The Notes You Have Written for {contactINFO['First Name']}:</h>
+        <p> {contactINFO['Notes']} </p>
 
         """
       send_email(subject,html,yourcontactINFO)

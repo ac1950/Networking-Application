@@ -385,7 +385,7 @@ def suggestions_func(contactINFO,yourcontactINFO,opportunities):
                 <p> Hi {contactINFO['First Name']}, </p>
                 <p> I hope this email finds you well. </p>
                 <p> I know we spoke a few weeks ago about *** {contactINFO['Notes']} ***. I have continued to learn more about {contactINFO['Company']} since then, and I would love to be able to touch base with you sometime soon.</p>
-                <p> Would you be available to chat over the phone sometime this week? I can make myself available at your earliest convience. </p>. 
+                <p> Would you be available to chat over the phone sometime this week? I can make myself available at your earliest convience. </p>
                 <p> Thanks again for your continued guidance throughout this process. </p>
                 <p> Looking forward to connecting soon!</p>
                 <p> Best, </p>
@@ -606,7 +606,8 @@ if __name__ == "__main__":
             
             <h4> Dont Forget To Proof Read and Attach a Resume! </h4>
 
-            <h4> Here Are The Notes You Have Written for {contactINFO['First Name']}: {contactINFO['Notes']} </h4>
+            <h4> Here Are The Notes You Have Written for {contactINFO['First Name']}:</h>
+            <p> {contactINFO['Notes']} </p>
 
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2mf3rA_gV0LbWzbZqdp20ZwefFrvuemSTlyzoVc4Tmd3nbCZf&usqp=CAU">
 
